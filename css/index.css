@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -56,6 +56,42 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    width:800px;
+    margin:0 auto;
+
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:20px;
+}
+.logo-container{
+    width:160px;
+}
+
+a {
+    text-decoration: none;
+    width:100px;
+    margin:0 5px;
+    font-size: 1rem;
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    margin:20px;
+
+}
+
+.header-image{
+    margin:30px;
+}
+.header-image img{
+    width:750px;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -66,6 +102,53 @@ p {
     line-height: 1.4;
 }
 
+.box1{
+    background-color:teal;
+}
+
+.box2{
+    background-color:gold;
+}
+
+.box3{
+    background-color:cadetblue;
+}
+
+.box4{
+    background-color:coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color:forestgreen;
+}
+
+.box7{
+    background-color:darkorchid;
+}
+
+.box8{
+    background-color:hotpink;
+}
+
+.box9{
+    background-color:indigo;
+}
+
+.box10{
+    background-color:dodgerblue;
+}
+
+.button{
+    width:200px;
+    font-size: 2rem;
+    margin:5%;
+    border-radius: 20px;
+    padding:5px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -82,7 +165,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -124,6 +207,50 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about p{
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 2rem;
+}
+
+.about-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:40px;
+}
+
+.about-bottom{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.left{
+    width:400px;
+    border-bottom: 1px dashed black;
+
+}
+.right{
+    width:400px;
+    border-bottom: 1px dashed black;
+
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+p{
+    font-size: 1.5rem;
 }
 
 footer {
